@@ -15,6 +15,14 @@ buttonPlay.addEventListener("click", function (){
 
         articleEl.append([index + 1]);
 
+        
+
+        articleEl.addEventListener("click", function (){
+
+            articleEl.classList.add("active");
+
+        });
+
        
 
     };
