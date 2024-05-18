@@ -6,6 +6,18 @@ buttonPlay.addEventListener("click", function (){
 
 
 
+    for (let index=0; index < 100 ; index++){
+
+        let articleEl=document.createElement("article");
+
+        
+        divContainer.appendChild(articleEl);
+
+        articleEl.append([index + 1]);
+
+       
+
+    };
 
 
 });
